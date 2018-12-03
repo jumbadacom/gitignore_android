@@ -1,7 +1,3 @@
-# Built application files
-*.apk
-*.ap_
-
 # Files for the ART/Dalvik VM
 *.dex
 
@@ -16,6 +12,7 @@ out/
 # Gradle files
 .gradle/
 build/
+/captures
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -37,8 +34,10 @@ captures/
 /.idea/
 /.idea/workspace.xml
 /.idea/libraries
-
-
+/.idea/caches
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 # MAC
 .DS_Store
 
@@ -48,6 +47,8 @@ captures/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+
+
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
@@ -63,4 +64,5 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 
+ 
 
